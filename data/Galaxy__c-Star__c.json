@@ -1,0 +1,282 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Galaxy__c",
+                "referenceId": "Galaxy__cRef1"
+            },
+            "Name": "LMC (Satellite)",
+            "Shape__c": "Lenticular",
+            "Size__c": 14000,
+            "Stars__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Star__c",
+                            "referenceId": "Star__cRef1"
+                        },
+                        "Name": "PM 879009",
+                        "Size__c": 256000,
+                        "Type__c": "Blue"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Galaxy__c",
+                "referenceId": "Galaxy__cRef2"
+            },
+            "Name": "Hoag's Object",
+            "Shape__c": "Spiral",
+            "Size__c": 100000,
+            "Stars__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Star__c",
+                            "referenceId": "Star__cRef2"
+                        },
+                        "Name": "YN 4002",
+                        "Size__c": 510000,
+                        "Type__c": "Yellow"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Star__c",
+                            "referenceId": "Star__cRef3"
+                        },
+                        "Name": "DJ 8800",
+                        "Size__c": 21000,
+                        "Type__c": "Orange"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Star__c",
+                            "referenceId": "Star__cRef4"
+                        },
+                        "Name": "FD 813",
+                        "Size__c": 623000,
+                        "Type__c": "Yellow"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Galaxy__c",
+                "referenceId": "Galaxy__cRef3"
+            },
+            "Name": "Pinwheel",
+            "Shape__c": "Spiral",
+            "Size__c": 170000,
+            "Stars__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Star__c",
+                            "referenceId": "Star__cRef5"
+                        },
+                        "Name": "LK 1172",
+                        "Size__c": 517000,
+                        "Type__c": "Yellow"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Star__c",
+                            "referenceId": "Star__cRef6"
+                        },
+                        "Name": "CM 315",
+                        "Size__c": 267000,
+                        "Type__c": "White"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Galaxy__c",
+                "referenceId": "Galaxy__cRef4"
+            },
+            "Name": "Sombrero",
+            "Shape__c": "Spiral",
+            "Size__c": 50000,
+            "Stars__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Star__c",
+                            "referenceId": "Star__cRef7"
+                        },
+                        "Name": "DJ 6400",
+                        "Size__c": 200000,
+                        "Type__c": "White"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Galaxy__c",
+                "referenceId": "Galaxy__cRef5"
+            },
+            "Name": "NGC 1300",
+            "Shape__c": "Elliptical",
+            "Size__c": 110000,
+            "Stars__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Star__c",
+                            "referenceId": "Star__cRef8"
+                        },
+                        "Name": "SR 2001",
+                        "Size__c": 19000,
+                        "Type__c": "Blue"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Star__c",
+                            "referenceId": "Star__cRef9"
+                        },
+                        "Name": "AR 517",
+                        "Size__c": 99000,
+                        "Type__c": "White"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Galaxy__c",
+                "referenceId": "Galaxy__cRef6"
+            },
+            "Name": "Whirlpool",
+            "Shape__c": "Spiral",
+            "Size__c": 60000,
+            "Stars__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Galaxy__c",
+                "referenceId": "Galaxy__cRef7"
+            },
+            "Name": "Tadpole",
+            "Shape__c": "Irregular",
+            "Size__c": 280000,
+            "Stars__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Star__c",
+                            "referenceId": "Star__cRef10"
+                        },
+                        "Name": "RP 118",
+                        "Size__c": 700000,
+                        "Type__c": "Red"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Galaxy__c",
+                "referenceId": "Galaxy__cRef8"
+            },
+            "Name": "Milky Way",
+            "Shape__c": "Spiral",
+            "Size__c": 100000,
+            "Stars__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Star__c",
+                            "referenceId": "Star__cRef11"
+                        },
+                        "Name": "RP 555",
+                        "Size__c": 112000,
+                        "Type__c": "Red"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Star__c",
+                            "referenceId": "Star__cRef12"
+                        },
+                        "Name": "RM 1218",
+                        "Size__c": 810000,
+                        "Type__c": "Orange"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Star__c",
+                            "referenceId": "Star__cRef13"
+                        },
+                        "Name": "MAS 112",
+                        "Size__c": 15000,
+                        "Type__c": "White"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Galaxy__c",
+                "referenceId": "Galaxy__cRef9"
+            },
+            "Name": "Andromeda",
+            "Shape__c": "Spiral",
+            "Size__c": 220000,
+            "Stars__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Galaxy__c",
+                "referenceId": "Galaxy__cRef10"
+            },
+            "Name": "Cigar",
+            "Shape__c": "Irregular",
+            "Size__c": 37000,
+            "Stars__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Galaxy__c",
+                "referenceId": "Galaxy__cRef11"
+            },
+            "Name": "Milky Way",
+            "Shape__c": "Spiral",
+            "Size__c": 102930192,
+            "Stars__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Star__c",
+                            "referenceId": "Star__cRef14"
+                        },
+                        "Name": "Another One"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Star__c",
+                            "referenceId": "Star__cRef15"
+                        },
+                        "Name": "Other One"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Star__c",
+                            "referenceId": "Star__cRef16"
+                        },
+                        "Name": "Ours"
+                    }
+                ]
+            }
+        }
+    ]
+}
