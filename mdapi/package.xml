@@ -28,13 +28,6 @@
     <members>Spaceforce_Perms</members>
   </types>
   <types>
-    <name>Profile</name>
-    <members>Admin</members>
-    <members>Custom%3A Marketing Profile</members>
-    <members>Custom%3A Sales Profile</members>
-    <members>Custom%3A Support Profile</members>
-  </types>
-  <types>
     <name>CustomTab</name>
     <members>Galaxy__c</members>
     <members>Star__c</members>
