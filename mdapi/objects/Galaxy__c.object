@@ -54,6 +54,17 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <label>Galaxy</label>
+    <nameField>
+        <label>Galaxy Name</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Galaxies</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
     <fields>
         <fullName>Discovered_By__c</fullName>
         <description>Astronomer who discovered the galaxy</description>
@@ -77,6 +88,16 @@
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Number_of_Stars__c</fullName>
+        <description>Number of stars in this galaxy</description>
+        <externalId>false</externalId>
+        <label>Number of Stars</label>
+        <summaryForeignKey>Star__c.Galaxy__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
     </fields>
     <fields>
         <fullName>Shape__c</fullName>
@@ -129,19 +150,9 @@
         <type>Number</type>
         <unique>false</unique>
     </fields>
-    <label>Galaxy</label>
     <listViews>
         <fullName>All</fullName>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
-    <nameField>
-        <label>Galaxy Name</label>
-        <trackFeedHistory>true</trackFeedHistory>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Galaxies</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
 </CustomObject>

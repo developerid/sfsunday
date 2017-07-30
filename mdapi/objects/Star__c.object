@@ -53,6 +53,15 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <label>Star</label>
+    <nameField>
+        <label>Star Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Stars</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
     <fields>
         <fullName>Galaxy__c</fullName>
         <description>Galaxy in which the Star resides</description>
@@ -122,18 +131,9 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <label>Star</label>
     <listViews>
         <fullName>All</fullName>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
-    <nameField>
-        <label>Star Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Stars</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ControlledByParent</sharingModel>
-    <visibility>Public</visibility>
 </CustomObject>
