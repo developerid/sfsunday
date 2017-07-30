@@ -1,0 +1,32 @@
+<apex:page standardController="Galaxy__c" extensions="GalaxyAddExtension">
+
+    <apex:pageMessages />
+    <apex:form >
+		<apex:pageBlock title="Space Force Galaxy Management">
+            <apex:pageblockbuttons >
+                <apex:commandButton value="Save" action="{!onSave}"/>
+                <apex:commandButton value="Cancel" action="{!onCancel}"/>
+            </apex:pageblockbuttons>
+            
+            <apex:pageblocksection title="Galaxy" columns="1" collapsible="false">
+                <apex:inputField value="{!Galaxy__c.Name}" />
+                <apex:inputField value="{!Galaxy__c.Size__c}" />
+                <apex:inputField value="{!Galaxy__c.Shape__c}" />
+            </apex:pageblocksection>
+            
+            <apex:pageblocksection title="Stars" columns="1" collapsible="false">
+                <apex:pageBlockTable value="{!stars}" var="s">
+                    <apex:column headerValue="Name" >
+                        <apex:inputField value="{!s.Name}" />
+                    </apex:column>
+                    <apex:column headerValue="Size" >
+                        <apex:inputField value="{!s.Size__c}" />
+                    </apex:column>
+                    <apex:column headerValue="Type" >
+                        <apex:inputField value="{!s.Type__c}" />
+                    </apex:column>
+                </apex:pageBlockTable>
+            </apex:pageblocksection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

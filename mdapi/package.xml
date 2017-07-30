@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>spaceforcePkg</fullName>
+    <types>
+        <members>GalaxyAddExtension</members>
+        <members>GalaxyAddExtensionTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>GalaxyAdd</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>Space_Force</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Galaxy__c.Discovered_By__c</members>
+        <members>Galaxy__c.Discovery_Date__c</members>
+        <members>Galaxy__c.Shape__c</members>
+        <members>Galaxy__c.Size__c</members>
+        <members>Star__c.Galaxy__c</members>
+        <members>Star__c.Size__c</members>
+        <members>Star__c.Type__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Galaxy__c</members>
+        <members>Star__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Galaxy__c</members>
+        <members>Star__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Galaxy__c-Galaxy Layout</members>
+        <members>Star__c-Star Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Galaxy__c.All</members>
+        <members>Star__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Spaceforce_Perms</members>
+        <name>PermissionSet</name>
+    </types>
+    <version>40.0</version>
+</Package>
