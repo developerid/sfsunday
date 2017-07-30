@@ -19,6 +19,10 @@
                 <behavior>Edit</behavior>
                 <field>Shape__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Number_of_Stars__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
