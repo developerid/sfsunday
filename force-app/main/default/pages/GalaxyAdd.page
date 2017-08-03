@@ -2,7 +2,7 @@
 
     <apex:pageMessages />
     <apex:form >
-		<apex:pageBlock title="Space Force Galaxy Management">
+        <apex:pageBlock title="Space Force Galaxy Management">
             <apex:pageblockbuttons >
                 <apex:commandButton value="Save" action="{!onSave}"/>
                 <apex:commandButton value="Cancel" action="{!onCancel}"/>
